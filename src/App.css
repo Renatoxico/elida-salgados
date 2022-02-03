@@ -18,6 +18,8 @@ div.App:before {
   padding: 40px 50px 70px;
   max-width: 100%;
   background-color: #f6a525;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .about-img {
@@ -47,41 +49,8 @@ div.App:before {
   overflow: hidden;
 }
 
-.border_on:before {
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  bottom: 30px;
-  left: 30px;
-  border: 2px solid #f6a525;
-  content: "";
-}
-
-#linkbar > div > a {
-  color: rgb(250, 160, 55);
-  text-shadow: 0.03em 0 black;
-  font-weight: 800;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
-
-.jumbo-text {
-  text-align: left;
-  text-shadow: 0.07em 0 black;
-  /*font-family: "jumboFont";*/
-  font-family: "satisfyFont";
-  font-size: 5vw !important;
-}
-
-#linkbar > div :hover {
-  color: white;
-}
-
-.highlights {
-  color: rgb(255, 12, 12);
-  font-size: 6vw !important;
-  text-align: center;
-  text-shadow: 0.07em 0 white;
+.about-us {
+  height: 100% !important;
 }
 
 .andSymbol {
@@ -89,29 +58,6 @@ div.App:before {
   display: inline-block;
   font-size: 5vw !important;
   text-shadow: 0.07em 0 black;
-}
-
-.company-name {
-  text-align: left;
-  font-family: "satisfyFont";
-  text-shadow: 0.07em 0 black;
-  font-size: 5vw;
-}
-
-.hook-text {
-  text-shadow: 0.07em 0 black;
-  /*font-family: "jumboFont";*/
-  font-size: 4vw;
-  font-family: "satisfyFont";
-}
-.App {
-  text-align: center;
-  position: relative;
-  height: 100%;
-  width: 80%;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: rgb(255, 12, 12);
 }
 
 .App-logo {
@@ -124,13 +70,68 @@ div.App:before {
   cursor: pointer;
 }
 
-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5vmax;
-  box-shadow: none !important;
+.border_on:before {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  border: 2px solid #f6a525;
+  content: "";
+}
+
+.card {
+  font-family: "ubuntuFont";
+}
+
+.card-title {
+  margin-top: 10px;
+}
+
+.company-name {
+  text-align: left;
+  font-family: "satisfyFont";
+  text-shadow: 0.07em 0 black;
+  font-size: 5vw;
+}
+
+.favProducts {
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-family: "ubuntuFont";
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+  margin: 0 0 20px;
+  color: white;
+}
+
+.highlights {
+  color: rgb(255, 12, 12);
+  font-size: 6vw !important;
+  text-align: center;
+  text-shadow: 0.07em 0 white;
+}
+
+.homeLinks > div {
+  display: flex !important;
+}
+
+.hook-text {
+  text-shadow: 0.07em 0 black;
+  /*font-family: "jumboFont";*/
+  font-size: 4vw;
+  font-family: "satisfyFont";
+}
+
+.jumbo-text {
+  text-align: left;
+  text-shadow: 0.07em 0 black;
+  /*font-family: "jumboFont";*/
+  font-family: "satisfyFont";
+  font-size: 5vw !important;
 }
 
 .jumbotronSalgados {
@@ -143,8 +144,16 @@ nav {
   cursor: pointer;
 }
 
-.homeLinks > div {
-  display: flex !important;
+#linkbar > div > a {
+  color: rgb(250, 160, 55);
+  text-shadow: 0.03em 0 black;
+  font-weight: 800;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#linkbar > div :hover {
+  color: white;
 }
 
 #ownerImage {
@@ -154,12 +163,12 @@ nav {
   background-position: center;
 }
 
-.about-us {
-  height: 100% !important;
-}
-
 span {
   font-size: 2em;
+}
+
+svg {
+  color: gold;
 }
 
 .textColumn {
@@ -167,8 +176,26 @@ span {
   justify-content: center;
   align-items: center;
 }
+
 /*desktop*/
 @media screen and (min-width: 601px) {
+  .App {
+    text-align: center;
+    position: relative;
+    height: 100%;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(255, 12, 12);
+  }
+
+  .about-us {
+    font-family: "ubuntuFont";
+    color: #fff;
+    padding: 4px;
+    display: flex !important;
+  }
+
   .border_on:before {
     position: absolute;
     top: 30px;
@@ -178,16 +205,45 @@ span {
     border: 2px solid #f6a525;
     content: "";
   }
+  .card-img-top {
+    width: 448px;
+    height: 336px;
+  }
 
-  .about-us {
-    font-family: "ubuntuFont";
-    color: #fff;
-    padding: 4px;
-    display: flex !important;
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vmax;
+  }
+
+  .product-card {
+    width: 18rem;
+    margin: 2rem;
+    cursor: pointer;
+  }
+
+  .products-container-desk {
+    display: block;
+  }
+
+  .products-container-mobile {
+    display: none;
   }
 }
 
 @media screen and (max-width: 600px) {
+  .App {
+    text-align: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(255, 12, 12);
+  }
+
   .about-body {
     flex: none !important;
     max-width: 100% !important;
@@ -214,7 +270,7 @@ span {
   }
 
   .about-text {
-    font-size: 14px;
+    font-size: 16px;
     text-align: justify;
     text-align-last: center;
     max-height: 260px;
@@ -237,7 +293,28 @@ span {
     content: "";
   }
 
+  .card-img-top {
+    width: 210px;
+    height: 157px;
+  }
+
   .logo {
     margin: auto;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vmax;
+  }
+
+  .products-container-desk {
+    display: none;
+  }
+
+  .products-container-mobile {
+    display: block;
   }
 }
