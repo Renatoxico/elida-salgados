@@ -163,6 +163,13 @@ div.App:before {
   background-position: center;
 }
 
+.product-card {
+  width: 18rem !important;
+  max-width: 100% !important;
+  margin: 2rem;
+  cursor: pointer;
+}
+
 span {
   font-size: 2em;
 }
@@ -216,12 +223,6 @@ svg {
     align-items: center;
     justify-content: center;
     font-size: 1.5vmax;
-  }
-
-  .product-card {
-    width: 18rem;
-    margin: 2rem;
-    cursor: pointer;
   }
 
   .products-container-desk {

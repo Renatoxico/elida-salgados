@@ -112,7 +112,7 @@ export default class Home extends Component {
                     <br />
                     <div className="card-deck">
                         <ProductCard
-                            productName={"Pastel de Frango c/ Catupiry"}
+                            productName={"Pastel Frango/Catupiry"}
                             img={pastelFrango}
                             descr={"Um salgado perfeito para um café da tarde reforçado."}
                         /> 
