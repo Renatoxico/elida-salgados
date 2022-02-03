@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MDBJumbotron, MDBBtn, MDBContainer, MDBRow, MDBCol, MDBCardTitle, MDBIcon } from 'mdbreact';
+import { MDBJumbotron, MDBContainer, MDBRow, MDBCol, MDBCardTitle } from 'mdbreact';
 import About from './About';
 import ProductCard from './Product-card';
 import coxinha from '../assets/images/a2d776612246d598c744792a62711a11_XL.jpg'

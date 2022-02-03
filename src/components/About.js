@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 import ownerImage from '../assets/images/onde-comprar-mini-salgados-para-festa.jpg'
-import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
+
 
 export class About extends Component {
     static propTypes = {
