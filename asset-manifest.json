@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.48168620.chunk.css",
+    "main.js": "/static/js/main.b10192ca.chunk.js",
+    "main.js.map": "/static/js/main.b10192ca.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.92ad49c6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.92ad49c6.js.map",
+    "static/css/2.5fb1e556.chunk.css": "/static/css/2.5fb1e556.chunk.css",
+    "static/js/2.2b213abb.chunk.js": "/static/js/2.2b213abb.chunk.js",
+    "static/js/2.2b213abb.chunk.js.map": "/static/js/2.2b213abb.chunk.js.map",
+    "static/js/3.3491cbde.chunk.js": "/static/js/3.3491cbde.chunk.js",
+    "static/js/3.3491cbde.chunk.js.map": "/static/js/3.3491cbde.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.5fb1e556.chunk.css.map": "/static/css/2.5fb1e556.chunk.css.map",
+    "static/css/main.48168620.chunk.css.map": "/static/css/main.48168620.chunk.css.map",
+    "static/js/2.2b213abb.chunk.js.LICENSE.txt": "/static/js/2.2b213abb.chunk.js.LICENSE.txt",
+    "static/media/209041939_332096688532498_4563438401343223032_n-1024x1024.9d0fbd1b.jpg": "/static/media/209041939_332096688532498_4563438401343223032_n-1024x1024.9d0fbd1b.jpg",
+    "static/media/index.css": "/static/media/Ubuntu-Regular.1cbb1b79.ttf",
+    "static/media/Pastel-Assado-Rápido-500x375.7b39292b.jpg": "/static/media/Pastel-Assado-Rápido-500x375.7b39292b.jpg",
+    "static/media/a2d776612246d598c744792a62711a11_XL.05700e47.jpg": "/static/media/a2d776612246d598c744792a62711a11_XL.05700e47.jpg",
+    "static/media/mdb.css": "/static/media/arrow_right.f7c6ac6d.svg",
+    "static/media/croquete-de-carne.b7d643b0.jpg": "/static/media/croquete-de-carne.b7d643b0.jpg",
+    "static/media/elidaSalgados[Novo-V2].e0f27131.png": "/static/media/elidaSalgados[Novo-V2].e0f27131.png",
+    "static/media/all.min.css": "/static/media/fa-solid-900.eeccf4f6.woff",
+    "static/media/App.css": "/static/media/salgadinhos-para-festa-infantil-paulovilela.214f0c7f.jpg",
+    "static/media/onde-comprar-mini-salgados-para-festa.65f9da62.jpg": "/static/media/onde-comprar-mini-salgados-para-festa.65f9da62.jpg",
+    "static/media/pastel-frango-com-catupiry.cb25d2ea.jpg": "/static/media/pastel-frango-com-catupiry.cb25d2ea.jpg",
+    "static/media/unnamed.e4ac7bab.jpg": "/static/media/unnamed.e4ac7bab.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92ad49c6.js",
+    "static/css/2.5fb1e556.chunk.css",
+    "static/js/2.2b213abb.chunk.js",
+    "static/css/main.48168620.chunk.css",
+    "static/js/main.b10192ca.chunk.js"
+  ]
+}
