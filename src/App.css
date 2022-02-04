@@ -56,7 +56,7 @@ div.App:before {
 .andSymbol {
   color: white;
   display: inline-block;
-  font-size: 5vw !important;
+  font-size: 6vw !important;
   text-shadow: 0.07em 0 black;
 }
 
@@ -90,9 +90,8 @@ div.App:before {
 
 .company-name {
   text-align: left;
-  font-family: "satisfyFont";
   text-shadow: 0.07em 0 black;
-  font-size: 5vw;
+  font-size: 6vw;
 }
 
 .favProducts {
@@ -121,23 +120,22 @@ div.App:before {
 
 .hook-text {
   text-shadow: 0.07em 0 black;
-  /*font-family: "jumboFont";*/
-  font-size: 4vw;
-  font-family: "satisfyFont";
+  font-size: 5vw;
+  text-align: left;
 }
 
 .jumbo-text {
   text-align: left;
   text-shadow: 0.07em 0 black;
-  /*font-family: "jumboFont";*/
-  font-family: "satisfyFont";
-  font-size: 5vw !important;
+  font-size: 6vw !important;
+  padding-bottom: 3vw;
 }
 
 .jumbotronSalgados {
   background: url("./assets/images/salgadinhos-para-festa-infantil-paulovilela.jpg")
     no-repeat;
   background-size: cover;
+  font-family: "satisfyFont";
   padding: 0;
   max-height: 85%;
   min-width: 75vw;
@@ -154,6 +152,10 @@ div.App:before {
 
 #linkbar > div :hover {
   color: white;
+}
+
+.name-hook {
+  padding-top: 2rem;
 }
 
 #ownerImage {
@@ -213,7 +215,8 @@ svg {
     content: "";
   }
   .card-img-top {
-    width: 448px;
+    /*width: 448px;*/
+    width: 100%;
     height: 336px;
   }
 
@@ -223,6 +226,10 @@ svg {
     align-items: center;
     justify-content: center;
     font-size: 1.5vmax;
+  }
+
+  #linkbar {
+    flex-wrap: nowrap;
   }
 
   .products-container-desk {
@@ -297,6 +304,7 @@ svg {
   .card-img-top {
     width: 210px;
     height: 157px;
+    margin: auto;
   }
 
   .logo {
@@ -308,7 +316,7 @@ svg {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 3vmax;
+    font-size: 4.5vw;
   }
 
   .products-container-desk {

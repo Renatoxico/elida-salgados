@@ -25,12 +25,12 @@ export default class Home extends Component {
                                     <MDBCardTitle className="company-name">
                                         Elidas Salgados
                                     </MDBCardTitle>
-                                    <MDBCardTitle className="hook-text">
+                                    <MDBCardTitle className="hook-text">Feitos com 
                                         {/* O MELHOR SALGADO DE CONS. PENA */}
                                     </MDBCardTitle>
                                 </div>
                                 <div className="description">
-                                    <MDBCardTitle className="h1-responsive jumbo-text  font-bold">Feitos com 
+                                    <MDBCardTitle className="h1-responsive jumbo-text  font-bold">
                                         <MDBCardTitle className="highlights">AMOR <div className="andSymbol">&</div></MDBCardTitle>                                                              
                                         <MDBCardTitle className="highlights">CARINHO </MDBCardTitle> 
                                     </MDBCardTitle>       
