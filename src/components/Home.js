@@ -14,7 +14,6 @@ export default class Home extends Component {
     render() {
         return (
             <>
-                {/* <a id="#Home"/> */}
                 <MDBContainer id="jumboSalgado" className="col-md-12">
                     <MDBRow>
                         <MDBCol>
