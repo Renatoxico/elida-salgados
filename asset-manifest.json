@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/elida-salgados/static/css/main.95ec9e1c.chunk.css",
-    "main.js": "/elida-salgados/static/js/main.1640ca53.chunk.js",
-    "main.js.map": "/elida-salgados/static/js/main.1640ca53.chunk.js.map",
-    "runtime-main.js": "/elida-salgados/static/js/runtime-main.29aa3743.js",
-    "runtime-main.js.map": "/elida-salgados/static/js/runtime-main.29aa3743.js.map",
+    "main.css": "/elida-salgados/static/css/main.6330f38f.chunk.css",
+    "main.js": "/elida-salgados/static/js/main.47db15d6.chunk.js",
+    "main.js.map": "/elida-salgados/static/js/main.47db15d6.chunk.js.map",
+    "runtime-main.js": "/elida-salgados/static/js/runtime-main.e1027416.js",
+    "runtime-main.js.map": "/elida-salgados/static/js/runtime-main.e1027416.js.map",
     "static/css/2.58a5b407.chunk.css": "/elida-salgados/static/css/2.58a5b407.chunk.css",
-    "static/js/2.9d6508d7.chunk.js": "/elida-salgados/static/js/2.9d6508d7.chunk.js",
-    "static/js/2.9d6508d7.chunk.js.map": "/elida-salgados/static/js/2.9d6508d7.chunk.js.map",
-    "static/js/3.3491cbde.chunk.js": "/elida-salgados/static/js/3.3491cbde.chunk.js",
-    "static/js/3.3491cbde.chunk.js.map": "/elida-salgados/static/js/3.3491cbde.chunk.js.map",
+    "static/js/2.6738ed1e.chunk.js": "/elida-salgados/static/js/2.6738ed1e.chunk.js",
+    "static/js/2.6738ed1e.chunk.js.map": "/elida-salgados/static/js/2.6738ed1e.chunk.js.map",
+    "static/js/3.6e01aa0b.chunk.js": "/elida-salgados/static/js/3.6e01aa0b.chunk.js",
+    "static/js/3.6e01aa0b.chunk.js.map": "/elida-salgados/static/js/3.6e01aa0b.chunk.js.map",
     "index.html": "/elida-salgados/index.html",
     "static/css/2.58a5b407.chunk.css.map": "/elida-salgados/static/css/2.58a5b407.chunk.css.map",
-    "static/css/main.95ec9e1c.chunk.css.map": "/elida-salgados/static/css/main.95ec9e1c.chunk.css.map",
-    "static/js/2.9d6508d7.chunk.js.LICENSE.txt": "/elida-salgados/static/js/2.9d6508d7.chunk.js.LICENSE.txt",
+    "static/css/main.6330f38f.chunk.css.map": "/elida-salgados/static/css/main.6330f38f.chunk.css.map",
+    "static/js/2.6738ed1e.chunk.js.LICENSE.txt": "/elida-salgados/static/js/2.6738ed1e.chunk.js.LICENSE.txt",
     "static/media/209041939_332096688532498_4563438401343223032_n-1024x1024.9d0fbd1b.jpg": "/elida-salgados/static/media/209041939_332096688532498_4563438401343223032_n-1024x1024.9d0fbd1b.jpg",
     "static/media/index.css": "/elida-salgados/static/media/Ubuntu-Regular.1cbb1b79.ttf",
     "static/media/Pastel-Assado-Rápido-500x375.7b39292b.jpg": "/elida-salgados/static/media/Pastel-Assado-Rápido-500x375.7b39292b.jpg",
@@ -28,10 +28,10 @@
     "static/media/unnamed.e4ac7bab.jpg": "/elida-salgados/static/media/unnamed.e4ac7bab.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.29aa3743.js",
+    "static/js/runtime-main.e1027416.js",
     "static/css/2.58a5b407.chunk.css",
-    "static/js/2.9d6508d7.chunk.js",
-    "static/css/main.95ec9e1c.chunk.css",
-    "static/js/main.1640ca53.chunk.js"
+    "static/js/2.6738ed1e.chunk.js",
+    "static/css/main.6330f38f.chunk.css",
+    "static/js/main.47db15d6.chunk.js"
   ]
 }
