@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { MDBJumbotron, MDBContainer, MDBRow, MDBCol, MDBCardTitle } from 'mdbreact';
 import About from './About';
 import ProductCard from './Product-card';
+import Contact from './Contact';
 import coxinha from '../assets/images/a2d776612246d598c744792a62711a11_XL.jpg'
 import enroladinho from '../assets/images/unnamed.jpg';
 import pastelFrango from '../assets/images/pastel-frango-com-catupiry.jpg';
@@ -28,11 +29,10 @@ export default class Home extends Component {
                                         {/* O MELHOR SALGADO DE CONS. PENA */}
                                     </MDBCardTitle>
                                 </div>
-                                <div className="description">
-                                    <MDBCardTitle className="h1-responsive jumbo-text  font-bold">
-                                        <MDBCardTitle className="highlights">AMOR <div className="andSymbol">&</div></MDBCardTitle>                                                              
-                                        <MDBCardTitle className="highlights">CARINHO </MDBCardTitle> 
-                                    </MDBCardTitle>       
+                                <div className="description">      
+                                        <MDBCardTitle className="highlights h1-responsive">AMOR 
+                                             <div className="andSymbol"> & </div>  <br />                                                            
+                                        CARINHO </MDBCardTitle> 
                                 </div>                         
                                 {/* <MDBBtn outline color="white" className="mb-5"><MDBIcon icon="clone" className="mr-2"></MDBIcon> View project</MDBBtn> */}
                             </MDBCol>
@@ -123,6 +123,7 @@ export default class Home extends Component {
                     </div>
                 </div>
                 <br />
+                <Contact/>
             </>
         )
     }

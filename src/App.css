@@ -80,8 +80,21 @@ div.App:before {
   content: "";
 }
 
+.btn-submit {
+  background-color: #f6a525;
+}
+
 .card {
   font-family: "ubuntuFont";
+}
+.card-footer {
+  background-color: white;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.card-text {
+  color: #000 !important;
 }
 
 .card-title {
@@ -112,6 +125,7 @@ div.App:before {
   font-size: 6vw !important;
   text-align: center;
   text-shadow: 0.07em 0 white;
+  padding-bottom: min(8vh, 3vw);
 }
 
 .homeLinks > div {
@@ -158,6 +172,25 @@ div.App:before {
   padding-top: 2rem;
 }
 
+.order-btn {
+  font-size: 1.5rem;
+  width: 250px;
+  height: 80px;
+}
+
+.order-btn:hover {
+  background-color: #026e2e !important;
+}
+
+.order-title {
+  font-family: "ubuntuFont";
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #fff;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
 #ownerImage {
   background: url("./assets/images/marketing_woman_smiling_market_smiling_woman_female_retail_person-826927.jpg");
   min-height: 30vw;
@@ -170,6 +203,22 @@ div.App:before {
   max-width: 100% !important;
   margin: 2rem;
   cursor: pointer;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.product-card:hover {
+  background-color: rgb(255, 12, 12);
+  /* color: rgb(250, 160, 55); */
+  color: white !important;
+}
+
+.product-card:hover .card-footer {
+  background-color: rgb(255, 12, 12);
+}
+
+.product-card:hover .card-text {
+  color: white !important;
 }
 
 span {
@@ -217,7 +266,7 @@ svg {
   .card-img-top {
     /*width: 448px;*/
     width: 100%;
-    height: 336px;
+    height: 300px;
   }
 
   nav {
