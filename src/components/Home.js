@@ -3,6 +3,7 @@ import { MDBJumbotron, MDBContainer, MDBRow, MDBCol, MDBCardTitle } from 'mdbrea
 import About from './About';
 import ProductCard from './Product-card';
 import Contact from './Contact';
+import Header2 from './Header2';
 import coxinha from '../assets/images/a2d776612246d598c744792a62711a11_XL.jpg'
 import enroladinho from '../assets/images/unnamed.jpg';
 import pastelFrango from '../assets/images/pastel-frango-com-catupiry.jpg';
@@ -14,7 +15,7 @@ import pastelAssado from '../assets/images/Pastel-Assado-Rápido-500x375.jpg';
 export default class Home extends Component {
     render() {
         return (
-            <>
+            <div id="home">
                 <MDBContainer id="jumboSalgado" className="col-md-12">
                     <MDBRow>
                         <MDBCol>
@@ -41,8 +42,10 @@ export default class Home extends Component {
                         </MDBCol>
                     </MDBRow>
                 </MDBContainer>
+                <hr style={{ color: 'white', width: '75%', marginLeft: 'auto', marginRight: 'auto' }} />
                 <About/>
                 <br />
+                <hr style={{ color: 'white', width: '75%', marginLeft: 'auto', marginRight: 'auto' }} />
                 <div className="container-fluid products-container-desk">
                     <h2 className="favProducts">Nossos Salgadinhos Favoritos!</h2>
                     <div className="card-group">
@@ -124,7 +127,7 @@ export default class Home extends Component {
                 </div>
                 <br />
                 <Contact/>
-            </>
+            </div>
         )
     }
 }

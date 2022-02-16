@@ -1,18 +1,4 @@
 /*site wide*/
-div.App:before {
-  content: "";
-  background: #000;
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 0;
-  width: 100%;
-  height: 100%;
-  transition: 0.4s;
-  opacity: 0.5;
-}
 
 .about-body {
   padding: 40px 50px 70px;
@@ -157,7 +143,7 @@ div.App:before {
 }
 
 #linkbar > div > a {
-  color: rgb(250, 160, 55);
+  color: white;
   text-shadow: 0.03em 0 black;
   font-weight: 800;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
@@ -165,11 +151,22 @@ div.App:before {
 }
 
 #linkbar > div :hover {
-  color: white;
+  color: rgb(250, 160, 55);
 }
 
 .name-hook {
   padding-top: 2rem;
+}
+
+nav > * {
+  color: #fff;
+  display: flex !important;
+}
+
+.nav-btn {
+  height: 8vw;
+  position: absolute;
+  left: 2%;
 }
 
 .order-btn {

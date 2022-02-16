@@ -4,7 +4,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap'
 import logo from '../assets/images/elidaSalgados[Novo-V2].png'
 const Header = () => {
     return (
-        <div>
+        <div id="header-nav">
             <Navbar expand="lg">
                 <Container>
                     <Container>
